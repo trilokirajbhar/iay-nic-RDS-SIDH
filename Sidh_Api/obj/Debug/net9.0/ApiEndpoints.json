@@ -1,0 +1,117 @@
+[
+  {
+    "ContainingType": "Sidh_Api.Controllers.BatchListingController",
+    "Method": "FetchAndSave",
+    "RelativePath": "api/BatchListing/fetch",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "batchDTO",
+        "Type": "Sidh_Api.DTO.BatchDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Sidh_Api.Controllers.CandidateListingController",
+    "Method": "CandidateListing",
+    "RelativePath": "api/CandidateListing/candidatelisting",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "candidateresponseDTO",
+        "Type": "Sidh_Api.DTO.CandidateResponseDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Sidh_Api.Controllers.CsrfTokenGenerationController",
+    "Method": "CheckUserHeaders",
+    "RelativePath": "api/CsrfTokenGeneration/CheckUserHeaders",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LoginApiController",
+    "Method": "LoginAsync",
+    "RelativePath": "api/LoginApi/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Sidh_Api.Controllers.SchemeListDataController",
+    "Method": "Fetchscheme",
+    "RelativePath": "api/SchemeListData/Fetchscheme",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Sidh_Api.DTO.SchemeRequests",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Sidh_Api.Controllers.TCListingController",
+    "Method": "FetchAndSaveData",
+    "RelativePath": "api/TCListing/fetch-and-save",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Sidh_Api.Repository.TCListing\u002BSchemeRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Sidh_Api.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Sidh_Api.WeatherForecast, Sidh_Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]
