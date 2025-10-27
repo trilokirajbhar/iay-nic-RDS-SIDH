@@ -23,6 +23,8 @@ builder.Services.AddScoped<SidhLogin>();
 builder.Services.AddScoped<SchemeListing>();
 builder.Services.AddScoped<BatchListing>();
 builder.Services.AddScoped<CandidateListing>();
+builder.Services.AddScoped<TCListing>();
+
 //builder.Services.AddHttpClient<SchemeListing>();
 builder.Services.AddHttpClient();
 builder.Services.AddControllers();

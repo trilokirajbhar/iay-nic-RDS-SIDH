@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Sidh_Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2d02f8cd01b08ad842198000bd2fcb9e4582f219")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8e9e8cae84ebd91e20513a5bc49d1f2bc7c538dd")]
 [assembly: System.Reflection.AssemblyProductAttribute("Sidh_Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Sidh_Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

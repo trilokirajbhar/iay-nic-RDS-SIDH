@@ -3524,11 +3524,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ProjectAPI\\Sidh_Api\\Sidh_Api\\Sidh_Api.csproj",
+      "projectUniqueName": "D:\\ProjectAPI\\iay-nic-RDS-SIDH\\Sidh_Api\\Sidh_Api.csproj",
       "projectName": "Sidh_Api",
-      "projectPath": "D:\\ProjectAPI\\Sidh_Api\\Sidh_Api\\Sidh_Api.csproj",
+      "projectPath": "D:\\ProjectAPI\\iay-nic-RDS-SIDH\\Sidh_Api\\Sidh_Api.csproj",
       "packagesPath": "C:\\Users\\VSM\\.nuget\\packages\\",
-      "outputPath": "D:\\ProjectAPI\\Sidh_Api\\Sidh_Api\\obj\\",
+      "outputPath": "D:\\ProjectAPI\\iay-nic-RDS-SIDH\\Sidh_Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

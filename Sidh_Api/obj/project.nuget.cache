@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TCJAqmSqmuc=",
+  "dgSpecHash": "jGcgifMjSKE=",
   "success": true,
-  "projectFilePath": "D:\\ProjectAPI\\Sidh_Api\\Sidh_Api\\Sidh_Api.csproj",
+  "projectFilePath": "D:\\ProjectAPI\\iay-nic-RDS-SIDH\\Sidh_Api\\Sidh_Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\VSM\\.nuget\\packages\\automapper\\15.0.1\\automapper.15.0.1.nupkg.sha512",
     "C:\\Users\\VSM\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
